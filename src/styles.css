@@ -1,0 +1,132 @@
+body {
+    font-family: "Crafty Girls", cursive;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    margin-bottom: 150px;
+}
+
+wired-button {
+    margin: 15px;
+}
+
+.custom-button1 {
+    color: red;
+}
+
+.custom-button2 {
+    color: blue;
+}
+
+.custom-button3 {
+    color: yellow;
+}
+
+.custom-button4 {
+    color: green;
+}
+
+.custom-button5 {
+    color: pink;
+}
+
+wired-card {
+    margin: 15px;
+    width: 350px;
+}
+
+wired-checkbox {
+    margin: 15px;
+}
+
+wired-input {
+}
+
+.custom-checkbox {
+    color: blue;
+    --wired-checkbox-icon-color: red;
+}
+
+#btn3 {
+    --wired-fab-bg-color: red;
+}
+
+#btn4 {
+    --wired-fab-bg-color: blue;
+}
+
+#btn5 {
+    --wired-fab-bg-color: yellow;
+}
+
+#btn6 {
+    --wired-fab-bg-color: green;
+}
+
+#btn7 {
+    --wired-fab-bg-color: pink;
+}
+
+#icon-btn1 {
+    --wired-icon-size: 40px;
+}
+#icon-btn2 {
+    --wired-icon-bg-color: red;
+}
+#icon-btn3 {
+    --wired-icon-bg-color: blue;
+}
+#icon-btn4 {
+    --wired-icon-bg-color: yellow;
+}
+
+#icon-btn5 {
+    --wired-icon-bg-color: green;
+}
+#icon-btn6 {
+    --wired-icon-bg-color: pink;
+}
+
+#listbox2 {
+    --wired-item-selected-color: darkred;
+    --wired-item-selected-bg: pink;
+}
+
+#progress2 {
+    --wired-progress-color: green;
+}
+
+#progress3 {
+    --wired-progress-label-color: white;
+    --wired-progress-label-background: pink;
+    --wired-progress-font-size: 24px;
+    --wired-progress-color: red;
+}
+
+#progress4 {
+    --wired-progress-color: yellow;
+}
+
+/* wired-slider {
+    --wired-slider-knob-zero-color: red;
+    --wired-slider-knob-color: red;
+    --wired-slider-bar-color: red;
+} */
+#sp1 {
+    color: red;
+}
+#sp2 {
+    color: blue;
+}
+#sp3 {
+    color: yellow;
+}
+#sp4 {
+    color: green;
+}
+#sp5 {
+    color: pink;
+}

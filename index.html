@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parcel Sandbox</title>
+        <meta charset="UTF-8" />
+        <script src="https://unpkg.com/wired-elements@latest/dist/wired-elements.bundled.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Crafty+Girls&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <div id="app" class="container">
+            <h1>wired-button</h1>
+
+            <div>
+                <wired-button>wired-button</wired-button>
+                <wired-button disabled>Disabled</wired-button>
+                <wired-button class="custom-button1">wired-button</wired-button>
+                <wired-button class="custom-button2">wired-button</wired-button>
+                <wired-button class="custom-button3">wired-button</wired-button>
+                <wired-button class="custom-button4">wired-button</wired-button>
+                <wired-button class="custom-button5">wired-button</wired-button>
+            </div>
+            <div>
+                <wired-button elevation="1">elevation="1"</wired-button>
+                <wired-button elevation="2">elevation="2"</wired-button>
+                <wired-button elevation="3">elevation="3"</wired-button>
+                <wired-button elevation="4">elevation="4"</wired-button>
+                <wired-button elevation="5">elevation="5"</wired-button>
+            </div>
+
+            <h1>wired-card</h1>
+
+            <div>
+                <wired-card>
+                    <h4>Elevation: 1</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </wired-card>
+
+                <wired-card elevation="2">
+                    <h4>Elevation: 2</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </wired-card>
+
+                <wired-card elevation="3">
+                    <h4>Elevation: 3</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </wired-card>
+
+                <wired-card elevation="4">
+                    <h4>Elevation: 4</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </wired-card>
+
+                <wired-card elevation="5">
+                    <h4>Elevation: 5</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </wired-card>
+            </div>
+
+            <h1>wired-checkbox</h1>
+
+            <div>
+                <wired-checkbox>Checkbox One</wired-checkbox>
+                <wired-checkbox checked>Checkbox Two</wired-checkbox>
+                <wired-checkbox disabled>Disabled checkbox</wired-checkbox>
+                <wired-checkbox class="custom-checkbox"
+                    >Checkbox One</wired-checkbox
+                >
+            </div>
+
+            <h1>wired-combo</h1>
+
+            <div>
+                <wired-combo
+                    id="combo"
+                    selected="two"
+                    style="--wired-item-selected-bg:blue"
+                >
+                    <wired-item value="one">Number One</wired-item>
+                    <wired-item value="two">Number Two</wired-item>
+                    <wired-item value="three">Number Three</wired-item>
+                </wired-combo>
+
+                <wired-combo id="combo" selected="two" disabled>
+                    <wired-item value="one">Number One</wired-item>
+                    <wired-item value="two">Number Two</wired-item>
+                    <wired-item value="three">Number Three</wired-item>
+                </wired-combo>
+            </div>
+
+            <h1>wired-fab</h1>
+
+            <div>
+                <wired-fab id="btn1">favorite</wired-fab>
+                <wired-fab id="btn2" class="red">close</wired-fab>
+                <wired-fab id="btn3">favorite</wired-fab>
+                <wired-fab id="btn4">favorite</wired-fab>
+                <wired-fab id="btn5">favorite</wired-fab>
+                <wired-fab id="btn6">favorite</wired-fab>
+                <wired-fab id="btn7">favorite</wired-fab>
+            </div>
+
+            <h1>wired-icon-button</h1>
+
+            <div>
+                <wired-icon-button>favorite</wired-icon-button>
+                <wired-icon-button id="icon-btn1">favorite</wired-icon-button>
+                <wired-icon-button id="icon-btn2">favorite</wired-icon-button>
+                <wired-icon-button id="icon-btn3">favorite</wired-icon-button>
+                <wired-icon-button id="icon-btn4">favorite</wired-icon-button>
+                <wired-icon-button id="icon-btn5">favorite</wired-icon-button>
+                <wired-icon-button id="icon-btn6">favorite</wired-icon-button>
+            </div>
+
+            <h1>wired-input</h1>
+
+            <div>
+                <wired-input></wired-input>
+                <wired-input placeholder="Enter name"></wired-input>
+                <wired-input
+                    type="password"
+                    placeholder="Password"
+                ></wired-input>
+                <wired-input placeholder="Disabled" disabled></wired-input>
+            </div>
+
+            <h1>wired-listbox</h1>
+
+            <div>
+                <wired-listbox id="combo" selected="two">
+                    <wired-item value="one">Number One</wired-item>
+                    <wired-item value="two">Number Two</wired-item>
+                    <wired-item value="three">Number Three</wired-item>
+                </wired-listbox>
+
+                <wired-listbox id="listbox2" horizontal selected="two">
+                    <wired-item value="one">Number One</wired-item>
+                    <wired-item value="two">Number Two</wired-item>
+                    <wired-item value="three">Number Three</wired-item>
+                </wired-listbox>
+            </div>
+
+            <h1>wired-progress</h1>
+            <div>
+                <div><wired-progress value="25"></wired-progress></div>
+                <div>
+                    <wired-progress
+                        id="progress2"
+                        value="12"
+                        min="5"
+                        max="15"
+                    ></wired-progress>
+                </div>
+                <div>
+                    <wired-progress value="75" id="progress3"></wired-progress>
+                </div>
+                <div>
+                    <wired-progress value="0" id="progress4"></wired-progress>
+                </div>
+            </div>
+
+            <h1>wired-radio-group</h1>
+
+            <wired-radio-group selected="two">
+                <wired-radio name="one">One</wired-radio>
+                <wired-radio name="two">Two</wired-radio>
+                <wired-radio name="three">Three</wired-radio>
+                <wired-radio name="four">Four</wired-radio>
+            </wired-radio-group>
+
+            <h1>wired-radio</h1>
+
+            <wired-radio>Radio</wired-radio>
+            <wired-radio checked>Checked Radio</wired-radio>
+            <wired-radio disabled>Disabled Radio</wired-radio>
+
+            <h1>wired-slider</h1>
+
+            <wired-slider></wired-slider>
+            <wired-slider disabled></wired-slider>
+            <wired-slider
+                knobradius="15"
+                value="10"
+                min="5"
+                max="15"
+            ></wired-slider>
+
+            <h1>wired-spinner</h1>
+
+            <wired-spinner id="sp"></wired-spinner>
+            <wired-spinner spinning duration="1000" id="sp1"></wired-spinner>
+            <wired-spinner spinning duration="2000" id="sp2"></wired-spinner>
+            <wired-spinner spinning duration="3000" id="sp3"></wired-spinner>
+            <wired-spinner spinning duration="4000" id="sp4"></wired-spinner>
+            <wired-spinner spinning duration="5000" id="sp5"></wired-spinner>
+
+            <h1>wired-tab</h1>
+
+            <wired-tabs selected="Two">
+                <wired-tab name="One">
+                    <h4>Card 1</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </wired-tab>
+                <wired-tab name="Two">
+                    <h4>Card 2</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </wired-tab>
+                <wired-tab name="Three">
+                    <h4>Card 3</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </wired-tab>
+            </wired-tabs>
+
+            <h1>wired-textarea</h1>
+
+            <wired-textarea placeholder="Enter text" rows="6"></wired-textarea>
+
+            <h1>wired-toggle</h1>
+
+            <wired-toggle></wired-toggle>
+            <wired-toggle checked></wired-toggle>
+        </div>
+
+        <script src="src/index.js"></script>
+    </body>
+</html>
